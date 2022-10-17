@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Assignment-03|Flexbox></title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="assets/stylesheet/style.css"/> 
+ <script src="https://kit.fontawesome.com/3ee164a5fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+<div class="container flex">
+
+<div class="brand-image">
+<img src="media/download.png" alt="brand">
+<nav class="nav">
+<a href="#">Sarah Jone</a>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header> 
+    <section>
+<article class="container flex">
+<div class="article flex">
+<div class="links">
+<p>Dashboard</p>
+<p class="color">Article</p>
+<p>Inbox</p>
+<p>Analytics</p>
+<p>Setting</p>
+<p class="bottom">Log Out</p>
+</div>
+</div>
+<article class="container">
+<div class="article-2 flex">
+<div class="second-image">
+<img src="media/images.jpeg" alt="nature">
+<h1>this is our heading</h1>
+<p class=para> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque consequuntur veritatis quam esse accusamus eum corrupti laudantium necessitatibus. Sequi maiores aliquid similique eos, atque laboriosam qui laudantium alias. Laboriosam, voluptatem?
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic ut ducimus odio ratione voluptatem iste eligendi dignissimos tempore, dolorum laudantium nostrum vitae quo, fuga asperiores, accusantium qui libero! Enim, dicta.
+</p>
+<button class="btn">Read More</button>
+</div>
+</div>
+</div>
+</article>
+</section> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+</body>
+</html>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*::before,
+* ::after {
+box-sizing: border-box;
+}
+
+/* General */
+.container { 
+max-width: 1300px;
+margin: 0 auto;
+padding: 0 32px;
+display: flex;
+justify-content: space-between;
+}
+
+
+body {
+line-height: 1.5;
+}
+
+/* Header */
+.header { 
+background-color: black;
+}
+.brand-image { display: flex;
+justify-content: center;
+align-items: center;
+width: auto;
+
+}
+.nav a { text-decoration: none;
+color: white;
+margin-left: 900px;
+}
+/* Article */
+.article  { background-color: rgb(132, 219, 211);
+width: 20%;
+height: 450px;
+margin: 30px 0;
+border-radius: 4%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.links { 
+padding: 20px 10px;
+}
+p{ font-size: 20px;
+margin: 20px;
+}
+.color { 
+color: coral;
+border: 2px solid coral;
+border-radius: 10%;
+}
+.bottom {
+background-color: cornsilk;
+width: 90%;
+margin-top: 115px;
+border-radius: 10%;
+}
+h1 {
+font-size: 30px;
+}
+.btn { color: white;
+background-color: green;
+border-radius: 20%;
+}
